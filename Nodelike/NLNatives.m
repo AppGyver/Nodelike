@@ -13,6 +13,12 @@
 
 @implementation NLNatives
 
+static NSString *pathPrefix;
+
++ (void)setPathPrefix:(NSString*)prefix{
+    pathPrefix = prefix;
+}
+
 + (NSBundle *)bundle {
     NSBundle *bundle     = [NSBundle bundleForClass:self.class];
     NSString *bundlePath = [bundle pathForResource:@"Nodelike" ofType:@"bundle"];
@@ -35,7 +41,14 @@
 }
 
 + (NSString *)source:(NSString *)module {
-    NSString *path    = [self.bundle pathForResource:module ofType:@"js"];
+    
+    NSString *modulePath = module;
+    
+    if(pathPrefix){
+        modulePath = [NSString stringWithFormat:@"%@/%@", @"CommonCoreJS", module];
+    }
+    
+    NSString *path    = [self.bundle pathForResource:modulePath ofType:@"js"];
     NSString *content = [NSString stringWithContentsOfFile:path
                                                   encoding:NSUTF8StringEncoding
                                                      error:nil];
