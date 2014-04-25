@@ -13,8 +13,6 @@
 
 @interface NLNatives : NLBinding
 
-+ (void)setPathPrefix:(NSString*)prefix;
-
 + (NSBundle *)bundle;
 + (NSArray *)modules;
 + (NSString *)source:(NSString *)module;
