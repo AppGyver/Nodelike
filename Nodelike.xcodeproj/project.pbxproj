@@ -7,30 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10BF719E190A6A9900913B15 /* NLAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = B52B9B9218A01D0800492856 /* NLAsync.m */; };
-		10BF719F190A6A9900913B15 /* NLHTTPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DEFBD187DC18100FF1D8A /* NLHTTPParser.m */; };
-		10BF71A0190A6A9900913B15 /* NSObject+Nodelike.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A79B2A189E4F9400CC04D6 /* NSObject+Nodelike.m */; };
-		10BF71A1190A6A9900913B15 /* NLTCP.m in Sources */ = {isa = PBXBuildFile; fileRef = B599FF2B185A7ED000057DD6 /* NLTCP.m */; };
-		10BF71A2190A6A9900913B15 /* NLUDP.m in Sources */ = {isa = PBXBuildFile; fileRef = B5417310189415C000B6636B /* NLUDP.m */; };
-		10BF71A3190A6A9900913B15 /* NLUV.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5F8A181EC45A0093A6FF /* NLUV.m */; };
-		10BF71A4190A6A9900913B15 /* NLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5FA2181F07480093A6FF /* NLConstants.m */; };
-		10BF71A5190A6A9900913B15 /* NLSmalloc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C5B248181319550091FDE8 /* NLSmalloc.m */; };
-		10BF71A6190A6A9900913B15 /* NLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5F99181F07270093A6FF /* NLContext.m */; };
-		10BF71A7190A6A9900913B15 /* NLCares.m in Sources */ = {isa = PBXBuildFile; fileRef = B5061A391815A9B00083AB4B /* NLCares.m */; };
-		10BF71A8190A6A9900913B15 /* NLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5F90181EE3590093A6FF /* NLHandle.m */; };
-		10BF71A9190A6A9900913B15 /* NLNatives.m in Sources */ = {isa = PBXBuildFile; fileRef = B578842618945E9900EA1A81 /* NLNatives.m */; };
-		10BF71AA190A6A9900913B15 /* NLTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49974718D899480078FCB1 /* NLTTY.m */; };
-		10BF71AB190A6A9900913B15 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = B56DEFA8187DBFA700FF1D8A /* http_parser.c */; };
-		10BF71AC190A6A9900913B15 /* NLStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E6997184672F3004E4EF9 /* NLStream.m */; };
-		10BF71AD190A6A9900913B15 /* NLContextify.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A79B2D189E501200CC04D6 /* NLContextify.m */; };
-		10BF71AE190A6A9900913B15 /* NLFS.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5F93181F07090093A6FF /* NLFS.m */; };
-		10BF71AF190A6A9900913B15 /* NLProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5F9C181F07320093A6FF /* NLProcess.m */; };
-		10BF71B0190A6A9900913B15 /* NLBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5F9F181F073D0093A6FF /* NLBinding.m */; };
-		10BF71B1190A6A9900913B15 /* NLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E5FA51820EF530093A6FF /* NLTimer.m */; };
-		10BF71B2190A6A9900913B15 /* NLBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B578842318944F2000EA1A81 /* NLBuffer.m */; };
-		10BF71B4190A6A9900913B15 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B54C1F52180D37280051F826 /* libuv.a */; };
-		10BF71B5190A6A9900913B15 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59EA04F180CB38E005BF5C1 /* JavaScriptCore.framework */; };
-		10BF71B6190A6A9900913B15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B44642180AB78E009ADEF9 /* Foundation.framework */; };
 		B5061A3A1815A9B00083AB4B /* NLCares.m in Sources */ = {isa = PBXBuildFile; fileRef = B5061A391815A9B00083AB4B /* NLCares.m */; };
 		B50A48EB18C01CDF00656FA3 /* test-timers.js in Resources */ = {isa = PBXBuildFile; fileRef = B572E28418B94E32005E6403 /* test-timers.js */; };
 		B50A48EC18C01CF000656FA3 /* test-timers-zero-timeout.js in Resources */ = {isa = PBXBuildFile; fileRef = B572E28318B94E32005E6403 /* test-timers-zero-timeout.js */; };
@@ -260,13 +236,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10BF719C190A6A9900913B15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5B44637180AB78E009ADEF9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B54C1F51180D37280051F826;
-			remoteInfo = uv;
-		};
 		B54173251894341600B6636B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5B44637180AB78E009ADEF9 /* Project object */;
@@ -284,7 +253,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10BF71BC190A6A9900913B15 /* libNodelike simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNodelike simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5061A381815A9B00083AB4B /* NLCares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCares.h; sourceTree = "<group>"; };
 		B5061A391815A9B00083AB4B /* NLCares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCares.m; sourceTree = "<group>"; };
 		B50A490218C3882700656FA3 /* NextTick_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextTick_Tests.m; sourceTree = "<group>"; };
@@ -1177,16 +1145,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		10BF71B3190A6A9900913B15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10BF71B4190A6A9900913B15 /* libuv.a in Frameworks */,
-				10BF71B5190A6A9900913B15 /* JavaScriptCore.framework in Frameworks */,
-				10BF71B6190A6A9900913B15 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B54173131894341600B6636B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2195,7 +2153,6 @@
 				B59EA08E180CB587005BF5C1 /* libNodelike.a */,
 				B54C1F52180D37280051F826 /* libuv.a */,
 				B54173161894341600B6636B /* Nodelike Tests.xctest */,
-				10BF71BC190A6A9900913B15 /* libNodelike simulator.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2225,24 +2182,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10BF719A190A6A9900913B15 /* Nodelike simulator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10BF71B8190A6A9900913B15 /* Build configuration list for PBXNativeTarget "Nodelike simulator" */;
-			buildPhases = (
-				10BF719D190A6A9900913B15 /* Sources */,
-				10BF71B3190A6A9900913B15 /* Frameworks */,
-				10BF71B7190A6A9900913B15 /* Objective-Clean Run Script */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				10BF719B190A6A9900913B15 /* PBXTargetDependency */,
-			);
-			name = "Nodelike simulator";
-			productName = Nodelike;
-			productReference = 10BF71BC190A6A9900913B15 /* libNodelike simulator.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		B54173151894341600B6636B /* Nodelike Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54173271894341600B6636B /* Build configuration list for PBXNativeTarget "Nodelike Tests" */;
@@ -2325,7 +2264,6 @@
 			projectRoot = "";
 			targets = (
 				B59EA08D180CB587005BF5C1 /* Nodelike */,
-				10BF719A190A6A9900913B15 /* Nodelike simulator */,
 				B54C1F51180D37280051F826 /* uv */,
 				B54173151894341600B6636B /* Nodelike Tests */,
 			);
@@ -2497,20 +2435,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10BF71B7190A6A9900913B15 /* Objective-Clean Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Objective-Clean Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "if [[ -z ${SKIP_OBJCLEAN} || ${SKIP_OBJCLEAN} != 1 ]]; then\nif [[ -d \"${LOCAL_APPS_DIR}/Objective-Clean.app\" ]]; then\n\"${LOCAL_APPS_DIR}\"/Objective-Clean.app/Contents/Resources/ObjClean.app/Contents/MacOS/ObjClean \"${SRCROOT}\"?NL\nelse\necho \"warning: You have to install and set up Objective-Clean to use its features!\"\nfi\nfi";
-		};
 		B52B9B90189EC15600492856 /* Kill Simulator */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2542,34 +2466,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10BF719D190A6A9900913B15 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10BF719E190A6A9900913B15 /* NLAsync.m in Sources */,
-				10BF719F190A6A9900913B15 /* NLHTTPParser.m in Sources */,
-				10BF71A0190A6A9900913B15 /* NSObject+Nodelike.m in Sources */,
-				10BF71A1190A6A9900913B15 /* NLTCP.m in Sources */,
-				10BF71A2190A6A9900913B15 /* NLUDP.m in Sources */,
-				10BF71A3190A6A9900913B15 /* NLUV.m in Sources */,
-				10BF71A4190A6A9900913B15 /* NLConstants.m in Sources */,
-				10BF71A5190A6A9900913B15 /* NLSmalloc.m in Sources */,
-				10BF71A6190A6A9900913B15 /* NLContext.m in Sources */,
-				10BF71A7190A6A9900913B15 /* NLCares.m in Sources */,
-				10BF71A8190A6A9900913B15 /* NLHandle.m in Sources */,
-				10BF71A9190A6A9900913B15 /* NLNatives.m in Sources */,
-				10BF71AA190A6A9900913B15 /* NLTTY.m in Sources */,
-				10BF71AB190A6A9900913B15 /* http_parser.c in Sources */,
-				10BF71AC190A6A9900913B15 /* NLStream.m in Sources */,
-				10BF71AD190A6A9900913B15 /* NLContextify.m in Sources */,
-				10BF71AE190A6A9900913B15 /* NLFS.m in Sources */,
-				10BF71AF190A6A9900913B15 /* NLProcess.m in Sources */,
-				10BF71B0190A6A9900913B15 /* NLBinding.m in Sources */,
-				10BF71B1190A6A9900913B15 /* NLTimer.m in Sources */,
-				10BF71B2190A6A9900913B15 /* NLBuffer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B54173121894341600B6636B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2657,11 +2553,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10BF719B190A6A9900913B15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B54C1F51180D37280051F826 /* uv */;
-			targetProxy = 10BF719C190A6A9900913B15 /* PBXContainerItemProxy */;
-		};
 		B54173261894341600B6636B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B59EA08D180CB587005BF5C1 /* Nodelike */;
@@ -2686,51 +2577,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		10BF71B9190A6A9900913B15 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/Nodelike.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nodelike/Nodelike-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Nodelike simulator";
-				SDKROOT = iphonesimulator;
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386";
-			};
-			name = Debug;
-		};
-		10BF71BA190A6A9900913B15 /* Testing */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/Nodelike.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nodelike/Nodelike-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Nodelike simulator";
-				SDKROOT = iphonesimulator;
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386";
-			};
-			name = Testing;
-		};
-		10BF71BB190A6A9900913B15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/Nodelike.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nodelike/Nodelike-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Nodelike simulator";
-				SDKROOT = iphonesimulator;
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386";
-			};
-			name = Release;
-		};
 		B54173281894341600B6636B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2768,13 +2614,11 @@
 		B54C1F6F180D37280051F826 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/uv.dst;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2784,9 +2628,7 @@
 		B54C1F70180D37280051F826 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/uv.dst;
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2796,23 +2638,19 @@
 		B59EA0AB180CB588005BF5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/Nodelike.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nodelike/Nodelike-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		B59EA0AC180CB588005BF5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/Nodelike.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nodelike/Nodelike-Prefix.pch";
@@ -2820,7 +2658,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -2828,7 +2665,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2860,7 +2696,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -2868,7 +2703,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2895,7 +2729,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -2903,7 +2736,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2938,36 +2770,30 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Testing;
 		};
 		B5C37E4618EB7E82008FA2D5 /* Testing */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/Nodelike.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nodelike/Nodelike-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Testing;
 		};
 		B5C37E4718EB7E82008FA2D5 /* Testing */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/uv.dst;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2994,16 +2820,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10BF71B8190A6A9900913B15 /* Build configuration list for PBXNativeTarget "Nodelike simulator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10BF71B9190A6A9900913B15 /* Debug */,
-				10BF71BA190A6A9900913B15 /* Testing */,
-				10BF71BB190A6A9900913B15 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B54173271894341600B6636B /* Build configuration list for PBXNativeTarget "Nodelike Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
